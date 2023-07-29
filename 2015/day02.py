@@ -1,4 +1,4 @@
-# day two
+# 2015 day two
 with open('inputs\day02_input.txt') as f:
     inpt = [list(map(int,y)) for y in \
             [x.split('x') for x in f.read().split('\n')]]

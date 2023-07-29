@@ -1,4 +1,4 @@
-# day one
+# 2015 day one
 with open('inputs\day01_input.txt') as f:
     # part one
     inpt = f.read()
