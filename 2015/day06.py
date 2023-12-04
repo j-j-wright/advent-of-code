@@ -4,9 +4,9 @@ import functools
 
 with open (r'inputs\day06_input.txt') as f:
     inpt = f.readlines()
+    
     # need to collect toggle/turn off/turn on; the two coordinate pairs
     reg = re.compile(r'(toggle|turn off|turn on) (\d*),(\d*) through (\d*),(\d*)')
-
 
     # part one
     lights = [[False]*1000 for i in range(1000)]
